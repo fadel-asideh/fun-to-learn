@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: fun-to-learn
+server:
+    port: 8081
