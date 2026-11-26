@@ -1,0 +1,34 @@
+# Root .gitignore — applies to the whole repo.
+# Java/Maven-specific rules live in backend/.gitignore.
+
+### Secrets — never commit ###
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+### Private planning notes ###
+docs/
+
+### IDEs and editors ###
+.idea/
+*.iml
+.vscode/
+.cursor/
+*.swp
+
+### OS files ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### Logs ###
+*.log
+logs/
+
+### Frontend (later) ###
+node_modules/
+frontend/dist/
+frontend/.angular/
+CLAUDE.md
